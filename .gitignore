@@ -1,0 +1,18 @@
+# 构建产物
+build/
+out/
+cmake-build-*/
+
+# vcpkg 安装目录（由 vcpkg.json 自动还原，不入库）
+vcpkg_installed/
+
+# IDE / 编辑器
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# 系统文件
+Thumbs.db
+.DS_Store

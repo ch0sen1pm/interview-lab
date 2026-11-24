@@ -1,0 +1,9 @@
+{
+    "name": "interview-lab",
+    "version-string": "0.1.0",
+    "dependencies": [
+        "curl",
+        "nlohmann-json",
+        "gtest"
+    ]
+}
