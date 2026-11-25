@@ -15,6 +15,7 @@ else()
 endif()
 
 add_executable(interview_lab src/main.cpp)
+target_include_directories(interview_lab PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 if(INTERVIEW_BUILD_TESTS)
     enable_testing()
