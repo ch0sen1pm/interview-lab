@@ -6,7 +6,7 @@
 namespace interview {
 
 enum class Stage {
-    Kintro,
+    kIntro,
     kQuestioning,
     kSummary,
     kFinished,
